@@ -1,0 +1,44 @@
+.header {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+}
+
+.header-flex {
+   display: flex;
+   align-items: flex-end;
+}
+
+#header-nav {
+   display: flex;
+}
+
+.related-nav {
+   display: flex;
+   justify-content: center;
+}
+
+.aiga {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footerWrapper .container {
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.footer-nav {
+   display: flex;
+   justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+   .related-nav {
+      display: contents;
+      justify-content: center;
+   }
+
+}
